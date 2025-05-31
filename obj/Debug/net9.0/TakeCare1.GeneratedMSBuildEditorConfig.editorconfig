@@ -24,12 +24,28 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Financeiro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbmNlaXJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Fisico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaXNpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Mental.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW50YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Nutricao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOdXRyaWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Privacy.cshtml]

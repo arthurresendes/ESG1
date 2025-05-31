@@ -26,6 +26,22 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Fisico()
+    {
+        return View();
+    }
+    public IActionResult Financeiro()
+    {
+        return View();
+    }
+    public IActionResult Mental()
+    {
+        return View();
+    }
+    public IActionResult Nutricao()
+    {
+        return View();
+    }
     public IActionResult Index()
     {
         return View();

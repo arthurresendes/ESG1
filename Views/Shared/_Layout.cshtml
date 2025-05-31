@@ -20,38 +20,42 @@
 <body>
     <header>
         <!-- Navbar com gradiente -->
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm gradient-navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/imagens/logo.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile"
-                    aria-controls="menuMobile" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between" id="menuMobile">
+      <nav class="navbar navbar-expand-sm navbar-toggleable-sm gradient-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+            <img src="~/imagens/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile"
+            aria-controls="menuMobile" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between" id="menuMobile">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Take Care</a>
+                </li>
 
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Take
-                                Care</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home"
-                                asp-action="Servicos">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home"
-                                asp-action="Contato">Profissionais</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home"
-                                asp-action="Login">Login</a>
-                        </li>
+                <li class="nav-item dropdown-custom">
+                    <span class="nav-link text-white no-click">Serviços</span>
+                    <ul class="dropdown-menu-custom">
+                        <li><a class="dropdown-item-custom" href="/Home/Nutricao">Nutrição</a></li>
+                        <li><a class="dropdown-item-custom" href="/Home/Fisico">Físico</a></li>
+                        <li><a class="dropdown-item-custom" href="/Home/Mental">Mental</a></li>
+                        <li><a class="dropdown-item-custom" href="/Home/Financeiro">Financeiro</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contato">Profissionais</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
