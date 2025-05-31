@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TakeCare1
 build_property.RootNamespace = TakeCare1
-build_property.ProjectDir = C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\
+build_property.ProjectDir = C:\Users\Micro\Desktop\ESG\ESG1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1
+build_property.MSBuildProjectDirectory = C:\Users\Micro\Desktop\ESG\ESG1
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/CadastroProfi.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/CadastroProfi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3Ryb1Byb2ZpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/Financeiro.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Financeiro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbmNlaXJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/Fisico.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Fisico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaXNpY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/Index.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/Login.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/Mental.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Mental.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW50YWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/Nutricao.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Nutricao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOdXRyaWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/Privacy.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/ProfiFinanceiro.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/ProfiFinanceiro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maUZpbmFuY2Vpcm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/ProfiFisico.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/ProfiFisico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maUZpc2ljby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/ProfiMental.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/ProfiMental.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maU1lbnRhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/ProfiNutricao.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/ProfiNutricao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maU51dHJpY2FvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Home/Servicos.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Home/Servicos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Shared/Error.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/_ViewImports.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/_ViewStart.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arthu/OneDrive/Área de Trabalho/Programação/Trabalhos/Desenvolvimento web/ESG/TakeCare1/TakeCare1/Views/Shared/_Layout.cshtml]
+[c:/Users/Micro/Desktop/ESG/ESG1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n4xo6ugu5f
