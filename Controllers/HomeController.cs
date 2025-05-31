@@ -13,16 +13,11 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Contato()
-    {
-        return View();
-    }
-
     public IActionResult Login()
     {
         return View();
     }
-    public IActionResult Servicos()
+    public IActionResult CadastroProfi()
     {
         return View();
     }

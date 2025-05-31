@@ -56,10 +56,15 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home"
-                                asp-action="Login">Login</a>
+                        <li class="nav-item dropdown-custom">
+                            <span class="nav-link text-white no-click">Login</span>
+                            <ul class="dropdown-menu-custom">
+                                <li><a class="dropdown-item-custom" href="/Home/Login">Usúario</a></li>
+                                <li><a class="dropdown-item-custom" href="/Home/CadastroProfi">Profissional</a></li>
+                            </ul>
                         </li>
+
+    
                     </ul>
                 </div>
             </div>
