@@ -34,13 +34,6 @@
             max-width: 450px;
             overflow: hidden;
         }
-        .auth-header {
-            background: var(--gradient-primary);
-            color: white;
-            padding: 25px;
-            text-align: center;
-            border: 2px solid transparent;
-        }
         .auth-body { padding: 30px; }
         .form-box { transition: all 0.3s ease; }
         .form-box:not(.active) { display: none; }
@@ -109,10 +102,6 @@
 </head>
 <body>
     <div class="auth-container">
-        <div class="auth-header">
-            <h1>TakeCare</h1>
-            <p>Cuide de quem você ama</p>
-        </div>
         <div class="auth-body">
             <!-- Formulário de Login -->
             <div class="form-box login-box active" id="loginBox">
@@ -146,27 +135,8 @@
                         <input type="email" class="form-control" id="registerEmail" required placeholder="seu@email.com">
                     </div>
                     <div class="mb-3">
-                        <label for="registerSpecialization" class="form-label">Especialização</label>
-                        <select class="form-control" id="registerSpecialization" required>
-                            <option value="">Selecione...</option>
-                            <option value="Nutrição">Nutrição</option>
-                            <option value="Físico">Físico</option>
-                            <option value="Mental">Mental</option>
-                            <option value="Financeiro">Financeiro</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="registerUniversity" class="form-label">Universidade de Formação</label>
-                        <input type="text" class="form-control" id="registerUniversity" required placeholder="Nome da universidade">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Certificado</label>
-                        <div class="file-input-container">
-                            <label for="registerCertificate" class="file-input-label">
-                                Clique para enviar seu certificado
-                            </label>
-                            <input type="file" class="file-input" id="registerCertificate" required>
-                        </div>
+                        <label for="registerTel" class="form-label">Número</label>
+                        <input type="tel" class="form-control"  id="registerTel" placeholder="Seu número">
                     </div>
                     <div class="mb-3">
                         <label for="registerPassword" class="form-label">Senha</label>
@@ -185,40 +155,45 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Alternar entre login e cadastro
-        document.getElementById('showRegister').addEventListener('click', function(e) {
-            e.preventDefault();
-            document.getElementById('loginBox').classList.remove('active');
-            document.getElementById('registerBox').classList.add('active');
-        });
-        document.getElementById('showLogin').addEventListener('click', function(e) {
-            e.preventDefault();
-            document.getElementById('registerBox').classList.remove('active');
-            document.getElementById('loginBox').classList.add('active');
-        });
-        // Validação do formulário de cadastro
-        document.getElementById('registerForm').addEventListener('submit', function(e) {
-            const password = document.getElementById('registerPassword').value;
-            const confirmPassword = document.getElementById('registerConfirmPassword').value;
-            if (password !== confirmPassword) {
-                e.preventDefault();
-                alert('As senhas não coincidem!');
-            }
-        });
-        // Feedback visual para upload de arquivo
-        document.getElementById('registerCertificate').addEventListener('change', function(e) {
-            const label = this.previousElementSibling;
-            if (this.files.length > 0) {
-                label.textContent = this.files[0].name;
-                label.style.borderColor = '#4d6ebc';
-                label.style.backgroundColor = 'rgba(77, 110, 188, 0.05)';
-            } else {
-                label.textContent = 'Clique para enviar seu certificado';
-                label.style.borderColor = '#ccc';
-                label.style.backgroundColor = 'transparent';
-            }
-        });
-    </script>
+<script>
+    // Alternar entre login e cadastro
+    document.getElementById('showRegister').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById('loginBox').classList.remove('active');
+        document.getElementById('registerBox').classList.add('active');
+    });
+
+    document.getElementById('showLogin').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById('registerBox').classList.remove('active');
+        document.getElementById('loginBox').classList.add('active');
+    });
+
+    // Validação do formulário de cadastro
+    document.getElementById('registerForm').addEventListener('submit', function (e) {
+        e.preventDefault(); // Evita envio padrão
+        const password = document.getElementById('registerPassword').value;
+        const confirmPassword = document.getElementById('registerConfirmPassword').value;
+
+        if (password !== confirmPassword) {
+            alert('As senhas não coincidem!');
+            return;
+        }
+
+        // Simula cadastro bem-sucedido e redireciona
+        alert('Cadastro realizado com sucesso!');
+        window.location.href = '/Home/Index'; // Altere o caminho se necessário
+    });
+
+    // Validação do formulário de login
+    document.getElementById('loginForm').addEventListener('submit', function (e) {
+        e.preventDefault(); // Evita envio padrão
+
+        // Aqui você poderia validar com dados do servidor (simulação por enquanto)
+        alert('Login realizado com sucesso!');
+        window.location.href = '/Home/Index'; // Altere o caminho se necessário
+    });
+</script>
+
 </body>
 </html>
