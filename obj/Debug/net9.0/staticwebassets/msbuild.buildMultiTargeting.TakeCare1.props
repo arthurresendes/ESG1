@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TakeCare1.props" />
+</Project>

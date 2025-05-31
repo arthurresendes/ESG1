@@ -1,0 +1,26 @@
+# Ignore pastas de build
+bin/
+obj/
+# Visual Studio
+.vscode/
+*.user
+*.suo
+
+# Arquivos temporários
+*.log
+*.tmp
+*.cache
+
+# Build results
+*.dll
+*.exe
+*.pdb
+
+# Diretórios do NuGet
+packages/
+*.nupkg
+
+# Outras configurações
+*.dbmdl
+*.bak
+*.swp
