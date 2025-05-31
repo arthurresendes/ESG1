@@ -42,6 +42,22 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult ProfiFisico()
+    {
+        return View();
+    }
+    public IActionResult ProfiFinanceiro()
+    {
+        return View();
+    }
+    public IActionResult ProfiMental()
+    {
+        return View();
+    }
+    public IActionResult ProfiNutricao()
+    {
+        return View();
+    }
     public IActionResult Index()
     {
         return View();

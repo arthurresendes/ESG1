@@ -17,7 +17,6 @@ C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolviment
 C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\scopedcss\bundle\TakeCare1.styles.css
 C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\scopedcss\projectbundle\TakeCare1.bundle.scp.css
-C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\compressed\spx3apkh7b-x7bka5cccm.gz
 C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\compressed\nnlnqoc2m5-61n19gt1b8.gz
 C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\compressed\bs3d6ismz4-3r8b2a0bt1.gz
 C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\compressed\lll3wauj73-agp80tu62r.gz
@@ -198,3 +197,4 @@ c:\Users\Micro\Desktop\ESG\ESG1\obj\Debug\net9.0\TakeCare1.pdb
 C:\Users\Micro\Desktop\ESG\ESG1\obj\Debug\net9.0\TakeCare1.genruntimeconfig.cache
 C:\Users\Micro\Desktop\ESG\ESG1\obj\Debug\net9.0\ref\TakeCare1.dll
 c:\Users\Micro\Desktop\ESG\ESG1\obj\Debug\net9.0\compressed\spx3apkh7b-ushpmfzf3u.gz
+C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\compressed\spx3apkh7b-2d8y6butcl.gz
