@@ -420,12 +420,12 @@ main{
   cursor: default;
   font-weight: bold;
   position: relative;
-  padding-right: 20px; /* corrigido de "rigth" para "right" */
+  padding-right: 20px; 
 }
 
 /* Triângulo apontando para baixo */
 .dropdown-custom > .no-click::after {
-  content: "";
+  content: ""; /* espaço em branco */
   position: absolute;
   top: 50%;
   right: -10px; /* ajusta posição do triângulo */
@@ -489,5 +489,22 @@ ul.navbar-nav,
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+/*animação nas paginas do droppdawn*/
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-intro {
+  animation: fadeSlideIn 0.8s ease forwards;
 }
 
