@@ -23,6 +23,31 @@ public class HomeController : Controller
     {
         return View();
     }
+    [HttpPost]
+    public IActionResult CadastroProfi(CadastroCrud form)
+    {
+
+        if (form.registerSpecialization == "Nutricao")
+        {
+            return Redirect("ProfiNutricao");
+        }
+        else if (form.registerSpecialization == "Fisico")
+        {
+            return Redirect("ProfiFisico");
+        }
+        else if (form.registerSpecialization == "Mental")
+        {
+            return Redirect("ProfiMental");
+        }
+        else if (form.registerSpecialization == "Financeiro")
+        {
+            return Redirect("ProfiFinanceiro");
+        }
+
+        return Redirect("Index");
+
+       
+    }
     public IActionResult Fisico()
     {
         return View();
@@ -59,6 +84,7 @@ public class HomeController : Controller
     {
         return View();
     }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
