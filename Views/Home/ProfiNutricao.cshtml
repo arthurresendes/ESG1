@@ -16,7 +16,7 @@
             </tr>
         </thead>
         <tbody>
-            @if(Model != null ){
+            @if(Model  != null ){
             
 @foreach (var item in Model )
 {
@@ -25,6 +25,11 @@
                 <td>@item.registerEmail</td>
                 <td>@item.registerSpecialization</td>
                 <td>@item.registerUniversity</td>
+                <td>
+                    <form action="~/Home/Excluir" method="post">
+                        <input type="submit" value="Deletar">
+                    </form>
+                </td>
             </tr>
 
 }
