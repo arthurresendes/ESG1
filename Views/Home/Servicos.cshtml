@@ -1,6 +1,38 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+﻿@model IEnumerable<CadastroCrud>
 
-<p>Use this page to detail your site's privacy policy.</p>
+
+<h1>Cadastro realizado com sucesso!!!!</h1>
+<br>
+<h2>Lista de Formulários</h2>
+<br>
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Especializacao</th>
+                <th>Universidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model  != null ){
+            
+@foreach (var item in Model )
+{
+            <tr>
+                <td>@item.registerName</td>
+                <td>@item.registerEmail</td>
+                <td>@item.registerSpecialization</td>
+                <td>@item.registerUniversity</td>
+                <td>
+                    <form action="~/Home/Excluir" method="post">
+                        <input type="submit" value="Deletar">
+                    </form>
+                </td>
+            </tr>
+
+}
+}
+        </tbody>
+    </table>

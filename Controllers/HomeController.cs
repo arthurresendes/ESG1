@@ -19,6 +19,7 @@ public class HomeController : Controller
     {
         return View();
     }
+    [HttpGet]
     public IActionResult CadastroProfi()
     {
         return View();
@@ -26,28 +27,40 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult CadastroProfi(CadastroCrud form)
     {
-
+    
         if (form.registerSpecialization == "Nutricao")
         {
-            return Redirect("ProfiNutricao");
+            RepositorioForms.AddFormulario(form);
+            return RedirectToAction("ProfiNutricao");
         }
         else if (form.registerSpecialization == "Fisico")
         {
-            return Redirect("ProfiFisico");
+            RepositorioForms.AddFormulario(form);
+            return RedirectToAction("ProfiFisico");
         }
         else if (form.registerSpecialization == "Mental")
         {
-            return Redirect("ProfiMental");
+             RepositorioForms.AddFormulario(form);
+            return RedirectToAction("ProfiMental");
         }
         else if (form.registerSpecialization == "Financeiro")
         {
-            return Redirect("ProfiFinanceiro");
+            RepositorioForms.AddFormulario(form);
+            return RedirectToAction("ProfiFinanceiro");
         }
 
         return Redirect("Index");
 
        
     }
+    [HttpPost]
+    public IActionResult Excluir(int id)
+    {
+        RepositorioForms.RemoveFormulario(id);
+        return RedirectToAction("Index");
+        
+    }
+    
     public IActionResult Fisico()
     {
         return View();
@@ -66,19 +79,19 @@ public class HomeController : Controller
     }
     public IActionResult ProfiFisico()
     {
-        return View();
+        return View(RepositorioForms.Formularios);
     }
     public IActionResult ProfiFinanceiro()
     {
-        return View();
+        return View(RepositorioForms.Formularios);
     }
     public IActionResult ProfiMental()
     {
-        return View();
+        return View(RepositorioForms.Formularios);
     }
     public IActionResult ProfiNutricao()
     {
-        return View();
+        return View(RepositorioForms.Formularios);
     }
     public IActionResult Index()
     {

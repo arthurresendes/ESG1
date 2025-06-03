@@ -1,5 +1,7 @@
 @model IEnumerable<CadastroCrud>
-
+@{
+    var contador = 0;
+}
 
 <h1>Cadastro realizado com sucesso!!!!</h1>
 <br>
@@ -13,6 +15,7 @@
                 <th>Email</th>
                 <th>Especializacao</th>
                 <th>Universidade</th>
+                <th>Deletar Cadastro</th>
             </tr>
         </thead>
         <tbody>
@@ -21,17 +24,18 @@
 @foreach (var item in Model )
 {
             <tr>
+                <td>@contador</td>
                 <td>@item.registerName</td>
                 <td>@item.registerEmail</td>
                 <td>@item.registerSpecialization</td>
                 <td>@item.registerUniversity</td>
                 <td>
                     <form action="~/Home/Excluir" method="post">
+                        <input type="hidden" name="id" value="@contador">
                         <input type="submit" value="Deletar">
-                    </form>
-                </td>
+                    </form></td>
             </tr>
-
+  contador++;
 }
 }
         </tbody>
