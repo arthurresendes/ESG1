@@ -218,7 +218,6 @@ C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\TakeCare1.sourc
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\scopedcss\bundle\TakeCare1.styles.css
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\scopedcss\projectbundle\TakeCare1.bundle.scp.css
-C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\compressed\spx3apkh7b-2d8y6butcl.gz
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\compressed\nnlnqoc2m5-61n19gt1b8.gz
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\compressed\bs3d6ismz4-3r8b2a0bt1.gz
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\compressed\lll3wauj73-nakmwdwsxp.gz
@@ -298,3 +297,4 @@ C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\refint\TakeCare
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\TakeCare1.pdb
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\TakeCare1.genruntimeconfig.cache
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\ref\TakeCare1.dll
+C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\compressed\spx3apkh7b-pzn71rzaeu.gz

@@ -21,7 +21,7 @@
         <tbody>
             @if(Model  != null ){
             
-@foreach (var item in Model )
+@foreach (var item in Model.Where(item => item.registerSpecialization == "Nutricao") )
 {
             <tr>
                 <td>@contador</td>

@@ -98,6 +98,7 @@ main{
 
 .parte2 {
   display: flex;
+  font-size: 123%;
   justify-content: space-around;
   align-items: center;
   gap: 20px;
@@ -368,7 +369,6 @@ main{
 
 .card-front p,
 .card-back p {
-  text-align: justify;
   font-size: 15px;
 }
 

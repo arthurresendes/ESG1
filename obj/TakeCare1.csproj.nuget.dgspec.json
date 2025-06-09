@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arthu\\OneDrive\\Área de Trabalho\\Programação\\Trabalhos\\Desenvolvimento web\\ESG\\TakeCare1\\TakeCare1\\TakeCare1.csproj": {}
+    "C:\\Users\\corre\\OneDrive\\Documentos\\estudos\\ESG1\\TakeCare1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arthu\\OneDrive\\Área de Trabalho\\Programação\\Trabalhos\\Desenvolvimento web\\ESG\\TakeCare1\\TakeCare1\\TakeCare1.csproj": {
+    "C:\\Users\\corre\\OneDrive\\Documentos\\estudos\\ESG1\\TakeCare1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthu\\OneDrive\\Área de Trabalho\\Programação\\Trabalhos\\Desenvolvimento web\\ESG\\TakeCare1\\TakeCare1\\TakeCare1.csproj",
+        "projectUniqueName": "C:\\Users\\corre\\OneDrive\\Documentos\\estudos\\ESG1\\TakeCare1.csproj",
         "projectName": "TakeCare1",
-        "projectPath": "C:\\Users\\arthu\\OneDrive\\Área de Trabalho\\Programação\\Trabalhos\\Desenvolvimento web\\ESG\\TakeCare1\\TakeCare1\\TakeCare1.csproj",
-        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arthu\\OneDrive\\Área de Trabalho\\Programação\\Trabalhos\\Desenvolvimento web\\ESG\\TakeCare1\\TakeCare1\\obj\\",
+        "projectPath": "C:\\Users\\corre\\OneDrive\\Documentos\\estudos\\ESG1\\TakeCare1.csproj",
+        "packagesPath": "C:\\Users\\corre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\corre\\OneDrive\\Documentos\\estudos\\ESG1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\corre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
