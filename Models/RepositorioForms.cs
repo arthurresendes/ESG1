@@ -11,8 +11,8 @@ namespace Projeto_Take.Models
         private static List<CadastroCrud> _formularios = [];
 
         public static IEnumerable<CadastroCrud> Formularios => _formularios;
-       
-               public static bool AddFormulario(CadastroCrud formulario)
+
+        public static bool AddFormulario(CadastroCrud formulario)
         {
             _formularios.Add(formulario);
             return true;
@@ -27,4 +27,3 @@ namespace Projeto_Take.Models
         }
     }
 }
-   

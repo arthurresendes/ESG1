@@ -7,7 +7,7 @@ namespace Projeto_Take.Controllers;
 public class HomeController : Controller
 {
 
-    
+
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
@@ -27,7 +27,7 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult CadastroProfi(CadastroCrud form)
     {
-    
+
         if (form.registerSpecialization == "Nutricao")
         {
             RepositorioForms.AddFormulario(form);
@@ -40,7 +40,7 @@ public class HomeController : Controller
         }
         else if (form.registerSpecialization == "Mental")
         {
-             RepositorioForms.AddFormulario(form);
+            RepositorioForms.AddFormulario(form);
             return RedirectToAction("ProfiMental");
         }
         else if (form.registerSpecialization == "Financeiro")
@@ -51,16 +51,16 @@ public class HomeController : Controller
 
         return Redirect("Index");
 
-       
+
     }
     [HttpPost]
     public IActionResult Excluir(int id)
     {
         RepositorioForms.RemoveFormulario(id);
         return RedirectToAction("Index");
-        
+
     }
-    
+
     public IActionResult Fisico()
     {
         return View();
