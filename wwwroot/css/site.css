@@ -508,3 +508,12 @@ ul.navbar-nav,
   animation: fadeSlideIn 0.8s ease forwards;
 }
 
+
+/*Estilizando Crud*/
+
+.itensCrud{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+}
