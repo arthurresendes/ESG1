@@ -545,6 +545,12 @@ ul.navbar-nav,
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.pdinamico2{
+  font-size: 20px;
+  margin-right: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .subTitulo{
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -569,11 +575,16 @@ ul.navbar-nav,
   align-items: stretch; /* força os cards a terem a mesma altura */
 }
 
-.cards {
+.cardsServico {
   flex: 1; /* todos os cards ocupam a mesma largura */
   border: 1px solid rgba(0, 0, 0, 0.422);
   border-radius: 5%;
   padding: 10px;
   box-sizing: border-box;
   background-color: white; /* opcional, para manter a consistência */
+}
+
+.cardsServico h3{
+  text-align: center;
+  margin: 5px;
 }
