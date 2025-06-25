@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets_tc\estresse.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TakeCare1</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TakeCare1</BasePath>
+      <RelativePath>assets_tc/estresse.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j8nwf678fa</Fingerprint>
+      <Integrity>XQtGi1pityK8w9lDWBHlSI2+cGfiZ6shpd4GSum6T6Y=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets_tc\estresse.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets_tc\financa_tcimage.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>TakeCare1</SourceId>
@@ -138,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v93hac9gz1</Fingerprint>
-      <Integrity>07SOtgT5qS9HDXn2smeM4qP4RQg3jin8y9AK1sQt1iA=</Integrity>
+      <Fingerprint>s3pe6m6k3z</Fingerprint>
+      <Integrity>mLT0x+rYbHp5KGgOnNlgwblIqVH6BPiN8cih6XjYD8c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>

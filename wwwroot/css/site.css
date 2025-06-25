@@ -137,6 +137,7 @@ main{
   text-align: center;
   font-family: quicksand;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.241);
+  margin-top: 10px;
 }
 
 .nutricao {
@@ -516,4 +517,63 @@ ul.navbar-nav,
   text-transform: uppercase;
   letter-spacing: 1.2px;
   font-weight: bolder;
+}
+
+/*Organizacao do incio areas*/
+.organizacao{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.organizacao img{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.tamanho{
+  width: 300px;
+  height: 250px;
+  border-radius: 15%;
+}
+
+.pdinamico{
+  text-align: justify;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subTitulo{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.178);
+}
+
+.todoConteudo{
+  background-image: linear-gradient(180deg, rgba(167, 167, 167, 0.192),white);
+  padding: 10px;
+}
+
+.tamanho2{
+  width: 250px;
+  height: 200px;
+  border-radius: 15%;
+}
+
+.organizacaoCards {
+  display: flex;
+  gap: 20px; /* espaçamento entre os cards */
+  align-items: stretch; /* força os cards a terem a mesma altura */
+}
+
+.cards {
+  flex: 1; /* todos os cards ocupam a mesma largura */
+  border: 1px solid rgba(0, 0, 0, 0.422);
+  border-radius: 5%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white; /* opcional, para manter a consistência */
 }
