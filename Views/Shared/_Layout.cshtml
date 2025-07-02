@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <!-- Navbar com gradiente -->
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm gradient-navbar">
             <div class="container-fluid">
@@ -71,14 +71,14 @@
         </nav>
 
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="container-fluid">
             &copy; 2025 - Todos os direitos reservador - <a asp-area="" asp-controller="Home"
                 asp-action="Privacy">TakeCare</a>
         </div>
