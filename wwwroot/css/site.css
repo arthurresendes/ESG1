@@ -48,7 +48,7 @@ main{
 
 
 .gradient-navbar {
-  background: linear-gradient(to right, #82D9D0, #A0F2AC);
+  background: linear-gradient(to bottom, #82D9D0, #A0F2AC);
   /* azul claro para verde */
 }
 
