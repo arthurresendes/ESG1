@@ -297,4 +297,4 @@ C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\TakeCare1.pdb
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\TakeCare1.genruntimeconfig.cache
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\ref\TakeCare1.dll
 C:\Users\corre\OneDrive\Documentos\estudos\ESG1\obj\Debug\net9.0\compressed\spx3apkh7b-pzn71rzaeu.gz
-C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\compressed\spx3apkh7b-jd0vls92it.gz
+C:\Users\arthu\OneDrive\Área de Trabalho\Programação\Trabalhos\Desenvolvimento web\ESG\TakeCare1\TakeCare1\obj\Debug\net9.0\compressed\spx3apkh7b-d7e9npr52c.gz

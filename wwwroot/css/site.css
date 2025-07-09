@@ -42,10 +42,11 @@ main{
   list-style: none !important;
 }
 .gradient-navbar {
-  background: linear-gradient(to bottom, #6e78e9,#658ae9 ,#cacefc,#fff);
+  background: linear-gradient(to bottom, #2b8540,#62c668 ,#b0f4ba,#fff);
   z-index: 1050;
   position: relative;
 }
+/*background: linear-gradient(to bottom, #6e78e9,#658ae9 ,#cacefc,#fff);*/
 /* Para garantir que o texto seja visível em cima do gradiente */
 .gradient-navbar .navbar-brand,
 .gradient-navbar .nav-link {
@@ -88,9 +89,8 @@ ul.navbar-nav,
 
 .hr {
   width: 17%;
-  border: 2px solid #8895c1;
+  border: 2px solid #62c668; /*#8895c1*/
   margin: 0 auto;
-
 }
 
 .titulo3 {
@@ -136,7 +136,7 @@ ul.navbar-nav,
   text-align: center;
   padding: 40px;
   font-family: Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #bcd8db2e , rgb(255, 255, 255));
+  background-image: linear-gradient(to bottom, #c1f3c71b , rgb(255, 255, 255));
   border-radius: 10px;
 }
 
@@ -206,13 +206,14 @@ ul.navbar-nav,
   transform: rotateY(180deg);
   background: #f0fff4;
 }
+/*Fim parte nossos serviços*/
 
 .estiloPalavrasCertas{
-  color: #6591e9;
-  text-shadow: 1px 1px 3px rgba(196, 108, 196, 0.756);
+  color: #62c668;
+  text-shadow: 1px 1px 3px rgba(71, 43, 71, 0.427);
 }
 
-
+/*Contato equipe*/
 .separacao {
   display: flex;
   justify-content: space-between;
@@ -226,7 +227,6 @@ ul.navbar-nav,
   gap: 15px;
 
 }
-
 
 .botao {
   border-radius: 15px;
@@ -262,9 +262,12 @@ ul.navbar-nav,
 .foto-arthur {
   width: 150px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 2px solid transparent;
 }
+/*Fim contato*/
+
+
 /* Fundo com gradiente */
 .login-page {
     min-height: 100vh;
@@ -386,7 +389,7 @@ ul.navbar-nav,
   position: absolute;
   top: 100%;
   left: 0;
-  background: linear-gradient(to right, #6e78e9,#658ae9 ,#cacefc);  
+  background: linear-gradient(to right, #2b8540,#62c668 ,#bff0c6);  /*#6e78e9,#658ae9 ,#cacefc*/
   min-width: 160px;
   z-index: 1000;
   padding: 10px 0;
