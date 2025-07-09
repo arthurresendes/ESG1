@@ -27,31 +27,26 @@ main{
   padding-top:10px ;
 }
 
-
-/* Usando Flexbox para espaçamento entre os itens */
+/*Inicio header*/
 .navbar-nav {
   display: flex;
   gap: 20px;
-  /* Ajuste o valor conforme necessário */
   justify-content: space-evenly;
-  /* Garante que os itens fiquem igualmente espaçados */
   list-style-type: none !important;
   padding-left: 0 !important;
   margin: 0 !important;
 }
 .navbar-nav > li {
-  list-style: none !important;  /* remove bolinhas nos itens */
+  list-style: none !important;  
 }
 .nav-item {
   list-style: none !important;
 }
-
-
 .gradient-navbar {
-  background: linear-gradient(to bottom, #82D9D0, #A0F2AC);
-  /* azul claro para verde */
+  background: linear-gradient(to bottom, #6e78e9,#658ae9 ,#cacefc,#fff);
+  z-index: 1050;
+  position: relative;
 }
-
 /* Para garantir que o texto seja visível em cima do gradiente */
 .gradient-navbar .navbar-brand,
 .gradient-navbar .nav-link {
@@ -64,11 +59,13 @@ main{
 
 .gradient-navbar .navbar-brand,
 .gradient-navbar .nav-link:hover{
-  color: rgba(30, 30, 30, 0.671) !important;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.107);
+  color: rgba(52, 38, 75, 0.984) !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.323);
   transition-duration: .5s;
 }
+/*Fim header*/
 
+/*Inicio parte 1 titulos*/
 .parte1 {
   margin: 10px;
 }
@@ -89,13 +86,15 @@ main{
 
 }
 
-.paragrafo {
+.titulo3 {
   text-align: center;
   font-size: 22px;
   font-weight: bold;
   font-family: quicksand;
 }
+/*Fim parte 1 titulos*/
 
+/*Inicio parte 2 apresentando TakeCare*/
 .parte2 {
   display: flex;
   font-size: 123%;
@@ -110,8 +109,19 @@ main{
   width: 40%;
   height: auto;
   border: 2px solid transparent;
-  box-shadow: 1px 1px 3px rgba(173, 216, 230, 0.452);
-  border-radius: 7px;
+  box-shadow: 1px 1px 2px rgba(37, 45, 48, 0.611);
+  border-radius: 16px;
+}
+/*Fim parte 2 apresentando TakeCare*/
+
+/*Inicio parte 3 nossos serviços*/
+.tituloConteudo{
+  font-size: 28px;
+  font-family: quicksand;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.121);
+  letter-spacing: 0.6px;
 }
 
 .servico {
@@ -402,14 +412,7 @@ main{
     transform: translateY(-100px);
 }
 
-/*NavBar com 'Serviço' não clicavel e com DropDaw*/
 
-/* Navbar com z-index para sobrepor conteúdo */
-.gradient-navbar {
-  background: linear-gradient(to right, #82D9D0, #A0F2AC);
-  z-index: 1050;
-  position: relative;
-}
 
 /* Item "Serviços" que não deve ser clicável */
 .dropdown-custom {
@@ -443,7 +446,7 @@ main{
   position: absolute;
   top: 100%;
   left: 0;
-  background: linear-gradient(to right, #82D9D0, #A0F2AC);
+  background: linear-gradient(to right, #6e78e9,#658ae9 ,#cacefc);  
   min-width: 160px;
   z-index: 1000;
   padding: 10px 0;
@@ -559,7 +562,7 @@ ul.navbar-nav,
 }
 
 .todoConteudo{
-  background-image: linear-gradient(180deg, rgba(167, 167, 167, 0.192),white);
+  background-image: linear-gradient(180deg, rgba(185, 185, 185, 0.192),white);
   padding: 10px;
 }
 
